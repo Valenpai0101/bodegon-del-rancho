@@ -93,7 +93,7 @@ export function Header() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[60] bg-ink/98 flex flex-col items-center justify-center gap-7"
+            className="fixed inset-0 z-[100] bg-[#150d05] flex flex-col items-center justify-center gap-7 overflow-y-auto py-10"
           >
             <button
               className="absolute top-5 right-5 text-paper"
