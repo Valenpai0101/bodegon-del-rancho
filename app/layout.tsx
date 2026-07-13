@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Oswald, Lora, Caveat } from "next/font/google";
+import { Bodoni_Moda, EB_Garamond, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 
-const oswald = Oswald({
+const bodoniModa = Bodoni_Moda({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["500", "600", "700", "800", "900"],
   variable: "--font-display",
   display: "swap",
 });
 
-const lora = Lora({
+const ebGaramond = EB_Garamond({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
@@ -17,9 +17,10 @@ const lora = Lora({
   display: "swap",
 });
 
-const caveat = Caveat({
+const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["500", "700"],
+  weight: ["500", "600", "700"],
+  style: ["italic"],
   variable: "--font-hand",
   display: "swap",
 });
@@ -48,7 +49,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es-AR" className={`${oswald.variable} ${lora.variable} ${caveat.variable}`}>
+    <html lang="es-AR" className={`${bodoniModa.variable} ${ebGaramond.variable} ${cormorant.variable}`}>
       <body>{children}</body>
     </html>
   );
