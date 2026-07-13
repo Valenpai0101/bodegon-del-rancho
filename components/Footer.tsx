@@ -1,11 +1,14 @@
-import { Logo } from "./Logo";
 import { businessInfo } from "@/lib/menu-data";
 
 export function Footer() {
   return (
     <footer className="bg-ink text-paper/70 pt-14 pb-8 px-6">
       <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
-        <Logo className="w-16 h-16 text-paper/90 mb-5" />
+        <img
+          src="/images/logo.png"
+          alt="El Bodegón del Rancho"
+          className="w-16 h-16 rounded-full object-cover mb-5"
+        />
 
         <p className="font-hand text-3xl md:text-4xl text-gold-light mb-6">
           Comer rico es vivir mejor
