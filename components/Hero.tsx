@@ -2,7 +2,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ChevronDown, BookOpen, CalendarCheck } from "lucide-react";
-import { Logo } from "./Logo";
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -49,7 +48,11 @@ export function Hero() {
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
-          <Logo className="w-28 h-28 md:w-36 md:h-36 text-paper drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]" />
+          <img
+            src="/images/logo.png"
+            alt="El Bodegón del Rancho"
+            className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
+          />
         </motion.div>
 
         <motion.h1
