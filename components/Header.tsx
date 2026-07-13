@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
-import { Logo } from "./Logo";
 import { businessInfo } from "@/lib/menu-data";
 import { cn } from "@/lib/utils";
 
@@ -42,7 +41,11 @@ export function Header() {
       >
         <div className="max-w-7xl mx-auto px-5 md:px-8 flex items-center justify-between">
           <a href="#inicio" className="flex items-center gap-3 text-paper">
-            <Logo className="w-11 h-11 md:w-14 md:h-14 shrink-0" />
+  <img
+    src="/images/logo.png"
+    alt="El Bodegón del Rancho"
+    className="w-11 h-11 md:w-14 md:h-14 shrink-0 rounded-full object-cover"
+  />
             <div className="leading-none">
               <span className="block font-display uppercase tracking-widest text-lg md:text-xl">
                 El Bodegón
