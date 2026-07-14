@@ -44,7 +44,7 @@ export function Header() {
   <img
     src="/images/logo.png"
     alt="El Bodegón del Rancho"
-    className="w-11 h-11 md:w-14 md:h-14 shrink-0 rounded-full object-cover"
+    className="w-11 h-11 md:w-14 md:h-14 shrink-0 rounded-full object-cover scale-125"
   />
             <div className="leading-none">
               <span className="block font-display uppercase tracking-widest text-lg md:text-xl">
