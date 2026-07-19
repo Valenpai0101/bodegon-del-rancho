@@ -75,7 +75,7 @@ export function Historia() {
           >
             <div className="carved-box p-3 bg-paper-dark rotate-2 shadow-xl">
              <img
-  src="/images/historia-1.jpg"
+  src="/images/historia-1.jpeg"
   alt="Salón de El Bodegón del Rancho"
   className="w-full h-[420px] object-cover grayscale-[15%] sepia-[15%]"
               />
