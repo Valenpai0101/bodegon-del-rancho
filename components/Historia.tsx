@@ -74,18 +74,18 @@ export function Historia() {
             className="relative"
           >
             <div className="carved-box p-3 bg-paper-dark rotate-2 shadow-xl">
-              <img
-                src="https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200&auto=format&fit=crop"
-                alt="Interior cálido de madera de El Bodegón del Rancho"
-                className="w-full h-[420px] object-cover grayscale-[15%] sepia-[15%]"
+             <img
+  src="/images/historia-1.jpg"
+  alt="Salón de El Bodegón del Rancho"
+  className="w-full h-[420px] object-cover grayscale-[15%] sepia-[15%]"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 carved-box bg-paper p-3 -rotate-3 shadow-xl hidden sm:block">
               <img
-                src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=600&auto=format&fit=crop"
-                alt="Empanadas caseras recién horneadas"
-                className="w-40 h-28 object-cover grayscale-[15%] sepia-[15%]"
-              />
+  src="/images/historia-2.jpg"
+  alt="Plato de El Bodegón del Rancho"
+  className="w-40 h-28 object-cover grayscale-[15%] sepia-[15%]"
+/>
             </div>
           </motion.div>
         </div>
