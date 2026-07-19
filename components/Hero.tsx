@@ -22,7 +22,7 @@ export function Hero() {
     >
       <motion.div style={{ y, scale }} className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2400&auto=format&fit=crop"
+          src="/images/hero.jpg"
           alt="Mesa abundante de comida casera en El Bodegón del Rancho"
           className="w-full h-full object-cover"
         />
