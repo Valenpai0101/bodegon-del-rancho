@@ -267,24 +267,24 @@ export const menuData: MenuCategory[] = [
 
 export const specialties = [
   {
-    name: "Matambre a la Pizza",
-    desc: "Nuestra bandera. Matambre tierno cubierto de salsa, muzzarella derretida y orégano, como manda la tradición del bodegón.",
-    price: "$20.800",
-  },
-  {
-    name: "Picada Clásica",
-    desc: "Para compartir en familia. Quesos, fiambres, longaniza, mortadela y papas fritas — la mesa completa en una tabla.",
-    price: "$24.000",
-  },
-  {
-    name: "Bife de Chorizo",
-    desc: "A la parrilla, a punto, con la guarnición que elijas. Carne argentina en su máxima expresión.",
-    price: "$19.200",
+    name: "Rabas",
+    desc: "Aros de calamar fritos, dorados y crocantes, con limón. Un clásico para arrancar o para picar entre amigos.",
+    price: "$20.000",
   },
   {
     name: "Empanadas de la Casa",
     desc: "Fritas o al horno. Carne, jamón y queso, caprese, verdura, pollo, atún, roquefort — la receta de siempre.",
     price: "$2.200",
+  },
+  {
+    name: "Milanesa Napolitana",
+    desc: "Con papas fritas. Milanesa jugosa cubierta de salsa, muzzarella derretida y orégano, al estilo de casa.",
+    price: "$13.200",
+  },
+  {
+    name: "Flan Casero",
+    desc: "Con dulce de leche y crema. El cierre perfecto, como el de la abuela.",
+    price: "$5.800",
   },
 ];
 
