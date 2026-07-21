@@ -4,12 +4,11 @@ import { Ribbon } from "./Ribbon";
 import { specialties } from "@/lib/menu-data";
 
 const images = [
-  "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=900&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1626200924853-27d2c0f76d0e?q=80&w=900&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=900&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1601924582970-9238bcb495d9?q=80&w=900&auto=format&fit=crop",
+  "/images/rabas.jpg",
+  "/images/empanadas.jpg",
+  "/images/milanesa.jpg",
+  "/images/flan.jpg",
 ];
-
 export function Especialidades() {
   return (
     <section
