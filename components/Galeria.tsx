@@ -4,37 +4,36 @@ import { Ribbon } from "./Ribbon";
 
 const gallery = [
   {
-    src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1000&auto=format&fit=crop",
-    alt: "Mesa servida con abundancia de platos",
+    src: "/images/galeria-1.jpg",
+    alt: "Picada de fiambres y quesos de El Bodegón del Rancho",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
-    alt: "Empanadas caseras recién horneadas",
+    src: "/images/galeria-2.jpg",
+    alt: "Salón de El Bodegón del Rancho",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=800&auto=format&fit=crop",
-    alt: "Parrilla y bife de chorizo",
+    src: "/images/galeria-3.jpg",
+    alt: "Milanesas napolitanas con papas fritas",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1000&auto=format&fit=crop",
-    alt: "Salón principal de madera",
+    src: "/images/galeria-4.jpg",
+    alt: "Salón de El Bodegón del Rancho",
     span: "row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop",
-    alt: "Copa de vino en la mesa",
+    src: "/images/galeria-5.jpg",
+    alt: "Fachada de El Bodegón del Rancho",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop",
-    alt: "Café de sobremesa",
+    src: "/images/galeria-6.jpg",
+    alt: "Barra de bebidas de El Bodegón del Rancho",
     span: "",
   },
 ];
-
 export function Galeria() {
   return (
     <section id="galeria" className="relative py-24 md:py-32 px-6">
