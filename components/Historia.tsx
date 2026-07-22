@@ -23,26 +23,61 @@ export function Historia() {
             variants={{ show: { transition: { staggerChildren: 0.15 } } }}
             className="space-y-5 font-body text-ink/90 text-[1.05rem] leading-relaxed"
           >
+            <motion.div
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: "-80px" }}
+            variants={{ show: { transition: { staggerChildren: 0.15 } } }}
+            className="space-y-5 font-body text-ink/90 text-[1.05rem] leading-relaxed"
+          >
             <motion.p variants={fadeUp}>
               <span className="font-display text-3xl float-left mr-3 mt-1 text-rust leading-[0.8]">
                 E
               </span>
-              n <strong>Ituzaingó 759</strong>, en el corazón de Pilar, abrimos
-              las puertas de El Bodegón del Rancho con una idea simple:
-              cocinar como se cocina en casa, sin apuro y sin vueltas.
+              n <strong>Ituzaingó 759</strong>, en el corazón de Pilar, nació
+              El Bodegón del Rancho con una idea sencilla: ofrecer comida
+              casera, abundante y llena de sabor, como la que reúne a la
+              familia alrededor de la mesa.
             </motion.p>
             <motion.p variants={fadeUp}>
-              Empezamos con unas mesas de madera, una parrilla que nunca se
-              apaga y la certeza de que la mejor receta es la que se comparte.
-              Con el tiempo, el rancho se llenó de vecinos, de familias enteras
-              los domingos, de amigos que se quedan "una picada más".
+              Desde el primer día apostamos por la cocina tradicional, el buen
+              servicio y un ambiente cálido donde cada cliente se sienta como
+              en casa. Hoy, con un chef que suma más de 17 años de
+              experiencia, seguimos preparando cada plato con la misma
+              dedicación y pasión que nos vio crecer.
             </motion.p>
             <motion.p variants={fadeUp}>
-              Hoy seguimos siendo lo mismo de siempre: un lugar de puertas
-              abiertas, empanadas caseras, asado de fin de semana y café de
-              sobremesa. Porque para nosotros, <em>comer rico es vivir
-              mejor</em>.
+              Nuestro bodegón es un punto de encuentro para vecinos, familias
+              y amigos que disfrutan de compartir una buena comida. Empanadas
+              caseras, carnes a la parrilla, platos tradicionales y ese café
+              de sobremesa que invita a quedarse un rato más.
             </motion.p>
+            <motion.p variants={fadeUp}>
+              En El Bodegón del Rancho, creemos que los mejores momentos
+              siempre empiezan alrededor de <em>una buena mesa</em>.
+            </motion.p>
+
+            <motion.div variants={fadeUp} className="pt-4 flex gap-8">
+              <div>
+                <span className="font-display text-4xl text-rust">+17</span>
+                <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
+                  Años de experiencia
+                </p>
+              </div>
+              <div>
+                <span className="font-display text-4xl text-rust">100%</span>
+                <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
+                  Cocina casera
+                </p>
+              </div>
+              <div>
+                <span className="font-display text-4xl text-rust">6</span>
+                <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
+                  Días a la semana
+                </p>
+              </div>
+            </motion.div>
+          </motion.div>
 
             <motion.div variants={fadeUp} className="pt-4 flex gap-8">
               <div>
