@@ -61,28 +61,6 @@ export function Historia() {
               <div>
                 <span className="font-display text-4xl text-rust">+17</span>
                 <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
-                  Años de experiencia
-                </p>
-              </div>
-              <div>
-                <span className="font-display text-4xl text-rust">100%</span>
-                <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
-                  Cocina casera
-                </p>
-              </div>
-              <div>
-                <span className="font-display text-4xl text-rust">6</span>
-                <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
-                  Días a la semana
-                </p>
-              </div>
-            </motion.div>
-          </motion.div>
-
-            <motion.div variants={fadeUp} className="pt-4 flex gap-8">
-              <div>
-                <span className="font-display text-4xl text-rust">+17</span>
-                <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
                   Años de tradición
                 </p>
               </div>
