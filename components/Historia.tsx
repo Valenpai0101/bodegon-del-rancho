@@ -81,7 +81,7 @@ export function Historia() {
 
             <motion.div variants={fadeUp} className="pt-4 flex gap-8">
               <div>
-                <span className="font-display text-4xl text-rust">+15</span>
+                <span className="font-display text-4xl text-rust">+17</span>
                 <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
                   Años de tradición
                 </p>
