@@ -23,13 +23,6 @@ export function Historia() {
             variants={{ show: { transition: { staggerChildren: 0.15 } } }}
             className="space-y-5 font-body text-ink/90 text-[1.05rem] leading-relaxed"
           >
-            <motion.div
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, margin: "-80px" }}
-            variants={{ show: { transition: { staggerChildren: 0.15 } } }}
-            className="space-y-5 font-body text-ink/90 text-[1.05rem] leading-relaxed"
-          >
             <motion.p variants={fadeUp}>
               <span className="font-display text-3xl float-left mr-3 mt-1 text-rust leading-[0.8]">
                 E
@@ -56,7 +49,29 @@ export function Historia() {
               En El Bodegón del Rancho, creemos que los mejores momentos
               siempre empiezan alrededor de <em>una buena mesa</em>.
             </motion.p>
-              
+
+            <motion.div variants={fadeUp} className="pt-4 flex gap-8">
+              <div>
+                <span className="font-display text-4xl text-rust">+17</span>
+                <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
+                  Años de experiencia
+                </p>
+              </div>
+              <div>
+                <span className="font-display text-4xl text-rust">100%</span>
+                <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
+                  Cocina casera
+                </p>
+              </div>
+              <div>
+                <span className="font-display text-4xl text-rust">6</span>
+                <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
+                  Días a la semana
+                </p>
+              </div>
+            </motion.div>
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0, x: 40, rotate: 3 }}
             whileInView={{ opacity: 1, x: 0, rotate: 0 }}
@@ -65,18 +80,18 @@ export function Historia() {
             className="relative"
           >
             <div className="carved-box p-3 bg-paper-dark rotate-2 shadow-xl">
-             <img
-  src="/images/historia-1.jpeg"
-  alt="Salón de El Bodegón del Rancho"
-  className="w-full h-[420px] object-cover grayscale-[15%] sepia-[15%]"
+              <img
+                src="/images/historia-1.jpg"
+                alt="Salón de El Bodegón del Rancho"
+                className="w-full h-[420px] object-cover grayscale-[15%] sepia-[15%]"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 carved-box bg-paper p-3 -rotate-3 shadow-xl hidden sm:block">
               <img
-  src="/images/historia-2.jpg"
-  alt="Plato de El Bodegón del Rancho"
-  className="w-40 h-28 object-cover grayscale-[15%] sepia-[15%]"
-/>
+                src="/images/historia-2.jpg"
+                alt="Plato de El Bodegón del Rancho"
+                className="w-40 h-28 object-cover grayscale-[15%] sepia-[15%]"
+              />
             </div>
           </motion.div>
         </div>
