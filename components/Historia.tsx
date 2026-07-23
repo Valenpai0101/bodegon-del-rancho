@@ -54,7 +54,7 @@ export function Historia() {
               <div>
                 <span className="font-display text-4xl text-rust">+17</span>
                 <p className="text-xs uppercase tracking-widest text-ink/60 mt-1">
-                  Años de experiencia
+                  Años de tradición
                 </p>
               </div>
               <div>
