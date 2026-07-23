@@ -81,14 +81,14 @@ export function Historia() {
           >
             <div className="carved-box p-3 bg-paper-dark rotate-2 shadow-xl">
               <img
-                src="/images/historia-1.jpg"
+                src="/images/historia-1.jpeg"
                 alt="Salón de El Bodegón del Rancho"
                 className="w-full h-[420px] object-cover grayscale-[15%] sepia-[15%]"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 carved-box bg-paper p-3 -rotate-3 shadow-xl hidden sm:block">
               <img
-                src="/images/historia-2.jpg"
+                src="/images/historia-2.jpeg"
                 alt="Plato de El Bodegón del Rancho"
                 className="w-40 h-28 object-cover grayscale-[15%] sepia-[15%]"
               />
